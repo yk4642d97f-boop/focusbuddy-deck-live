@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab idMso="TabInsert">
+        <group id="fbDeckGroup" label="专注搭子">
+          <button id="fbInsertDeck" size="large" label="插入动效" onAction="OnInsertDeck" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
